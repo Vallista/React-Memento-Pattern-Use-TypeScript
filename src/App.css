@@ -1,0 +1,79 @@
+#app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.collection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+}
+
+.todos {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  padding: 24px 24px 48px 24px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #2ac1bc;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in;
+  opacity: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.bottom-absolute {
+  position: absolute;
+  bottom: -20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  font-size: 30px;
+  padding: 2px;
+  line-height: 1;
+  margin: 0;
+}
